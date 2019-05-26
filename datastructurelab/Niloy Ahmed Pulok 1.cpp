@@ -110,6 +110,14 @@ int main()
 
             // IMPLEMENT DELETE OPERATION HERE
 
+
+
+for(int k=pos;k<N-1;k++)
+{
+    Array[k]=Array[k+1];
+
+}
+N--;
             //######## Deletion operation finished
             //print the array before deletion
             print(Array,N);
